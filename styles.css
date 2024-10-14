@@ -1,0 +1,123 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anonymous Pro";
+    --main-color: #5271C4;
+}
+
+body {
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    background-size: cover;
+}
+
+.logouser {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 7rem;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+
+.usernameSenha{
+    display: flex;
+    flex-direction: column;
+}
+
+.usernameSenha label{
+    padding-top: 1.38rem;
+    padding-bottom: 0.30rem;
+    margin-left: 1.2rem;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.usernameSenha input{
+    background-color: #EDE2E2;
+    width: 30rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 6px 5px black;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Anonymous Pro", sans-serif;
+}
+
+.optionsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.70rem;
+}
+
+.lembrese{
+    margin-right: 9.69rem;
+    font-weight: bold;
+}
+
+.esqueceu a{
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+.btnEntrar{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.btnEntrar input{
+    height: 4.38rem;
+    width: 20rem;
+    background-color: #5271C4;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 6px 5px black;
+    font-size: 2.50rem;
+    font-family: "Anonymous Pro";
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btnEntrar input:active{
+    transition: ease 3ms;
+    background-color: #4e28f8;
+    width: 19rem;
+    height: 4.30rem;
+}
+ 
+.cadastre a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+}
+
+.rodape{
+    background-color: black;
+    opacity: 0.3;
+}
+
+.rodapeContent{
+    color: white;
+    opacity: 0.9;
+}
+
+footer p{
+    color: #FFF;
+    opacity: 0.4;
+    margin-left: 0.63rem;
+}
+
+/*background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);*/
